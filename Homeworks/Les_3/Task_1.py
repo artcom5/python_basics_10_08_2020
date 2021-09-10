@@ -16,7 +16,7 @@ while True:
             continue
         break
     except ValueError:
-        print('Ввод только цыфры!!!')    # Замучаем пользователя, пока не введет верно.
+        print('Ввод только цифры!!!')    # Замучаем пользователя, пока не введет верно.
 
 # Обявить функцию my_division.
 def my_division(element_1, element_2):

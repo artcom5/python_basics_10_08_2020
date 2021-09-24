@@ -41,8 +41,8 @@ class Position(Worker):
         """Метод получения полного дохода"""
         result = 0
         for key in self._income:
-            value = float(input(f'Введите {key}: '))
-            result += value
+            self._income[key] = float(input(f'Введите {key}: '))
+            result += self._income[key]
         return result
 
 # Создать экземпляр дочернего класса.
